@@ -6,6 +6,9 @@
   "require": {
     "php": "^5.3|^7.0"
   },
+  "require-dev": {
+    "phpunit/phpunit": "^4|^5"
+  },
   "autoload": {
     "files": ["left-pad.php"]
   }
