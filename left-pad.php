@@ -1,7 +1,7 @@
 <?php
 if (!function_exists('left_pad')) {
     /**
-     * Leftp-pad a string
+     * Left-pad a string
      * 
      * @param string $str
      * @param int $length
