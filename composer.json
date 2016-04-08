@@ -1,0 +1,12 @@
+{
+  "name": "soatok/left-pad",
+  "description": "Left pad a string to a fixed length",
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": "^5.3|^7.0"
+  },
+  "autoload": {
+    "files": ["left-pad.php"]
+  }
+}
