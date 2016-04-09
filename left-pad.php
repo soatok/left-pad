@@ -12,7 +12,7 @@ if (!function_exists('left_pad')) {
     function left_pad($str, $length = 0, $space = ' ', $encoding = '8bit')
     {
         if (is_array($str)) {
-            return array_left_pad($str);
+            return array_left_pad($str, $length, $space);
         }
         
         if (function_exists('mb_strlen')) {
