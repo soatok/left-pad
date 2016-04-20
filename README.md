@@ -1,5 +1,7 @@
 # left-pad
 
+[![Build Status](https://travis-ci.org/soatok/left-pad.svg?branch=master)](https://travis-ci.org/soatok/left-pad)
+
 Left pad a string.
 
 ## Usage
