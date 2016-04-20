@@ -44,4 +44,10 @@ class LeftPadText extends PHPUnit_Framework_TestCase
 
         return $tests;
     }
+    public function testMulti() {
+        $this->assertSame(
+            'abax',
+            left_pad('x', 4, 'ab', 'utf8')
+        );
+    }
 }
