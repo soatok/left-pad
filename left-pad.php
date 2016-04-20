@@ -17,7 +17,12 @@ if (!function_exists('left_pad')) {
         
         if (function_exists('mb_strlen')) {
             while (mb_strlen($str, $encoding) < $length) {
-                $str = $space . $str;
+                $padLength = mb_strlen($str, $encoding);
+                if ($padLength < mb_strlen($space, $encoding)) {
+                    $str = mb_substr($space, 0, $padLength, $encoding) . $str;
+                } else {
+                    $str = $space . $str;
+                }
             }
             return $str;
         }
